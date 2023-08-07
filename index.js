@@ -10,6 +10,11 @@ let numeroMayor = 0;
 //Procesos Generales
 document.getElementById('c').addEventListener('click', onInit);
 
+/**
+ * Función para inicializar proceso principal
+ *
+ * @return {void}
+ */
 function onInit(e) {
   num1 = document.getElementById('num1').value;
   num2 = document.getElementById('num2').value;
@@ -20,9 +25,10 @@ function onInit(e) {
 
 /**
  * Función para mostrar etiqueta con el año, mes y días correspondientes
+ *
  * @return {void}
  */
- function setAlert() {
+function setAlert() {
   let alert = document.getElementById('alert');
   alert.removeAttribute('hidden');
   alert.innerHTML = `
