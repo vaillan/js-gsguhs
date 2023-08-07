@@ -24,7 +24,7 @@ function onInit(e) {
 }
 
 /**
- * Función para mostrar etiqueta con el año, mes y días correspondientes
+ * Función para mostrar etiqueta con el número mayor obtenido
  *
  * @return {void}
  */
